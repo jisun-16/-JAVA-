@@ -15,6 +15,6 @@ public class P1_1 {
 		min%=60;
 		sec%=60;
 		
-		System.out.print(""+day+"ÀÏ "+hour+"½Ã°£ "+min+"ºĞ "+sec+"ÃÊ");
+		System.out.print(""+day+"ì¼ "+hour+"ì‹œê°„ "+min+"ë¶„ "+sec+"ì´ˆ");
 	}
 }
