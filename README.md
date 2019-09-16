@@ -1,3 +1,3 @@
 # JAVA
 ---
-간단한 예제, 실습, 복습
+learning java
