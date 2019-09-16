@@ -4,15 +4,15 @@ public class P1_2 {
 	public static void main(String[] args) {
 		Scanner scin=new Scanner(System.in);
 		
-		System.out.print("х╜╬╬ ©б╣╣╦╕ ют╥бго╫ц©ю : ");
+		System.out.print("М≥■Л■╗ Л≤╗К▐└К╔╪ Л·┘К═╔М∙≤Л▀°Л≤╓: ");
 		
 		int f=scin.nextInt();
 		float c=((float)5/9)*(f-32);
 		
-		if(c>=0) System.out.print("х╜╬╬ "+f+"╣╣╢б ╪╥╬╬ "+c+"╣╣©м ╟╟╫ю╢о╢ы");
+		if(c>=0) System.out.print("М≥■Л■╗ "+f+"К▐└К┼■  Л└╜Л■╗ "+c+"К▐└Л≥─ Й╟≥Л┼╣К▀┬К▀╓.");
 		else {
 			c*=-1;
-			System.out.print("х╜╬╬ "+f+"╣╣╢б ╪╥╬╬ ©╣го "+c+"╣╣©м ╟╟╫ю╢о╢ы");
+			System.out.print("М≥■Л■╗ "+f+"К▐└К┼■  Л└╜Л■╗ Л≤│М∙≤"+c+"К▐└Л≥─ Й╟≥Л┼╣К▀┬К▀╓.");
 		}
 	}
 }
