@@ -11,6 +11,6 @@ public class P1_3 {
 		
 		for(int i=1;i<=n;i++) sum+=i;
 		
-		System.out.print("1ºÎÅÍ "+n+"±îÁöÀÇ ÇÕÀº "+sum+"ÀÔ´Ï´Ù.");
+		System.out.print("1ë¶€í„° "+n+"ê¹Œì§€ì˜ í•©ì€ "+sum+"ìž…ë‹ˆë‹¤.");
 	}
 }
