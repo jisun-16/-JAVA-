@@ -1,18 +1,23 @@
-package p1;
+
+package practice1;
 import java.util.Scanner;
-public class P1_2 {
+public class P1_20161253_2 {
 	public static void main(String[] args) {
 		Scanner scin=new Scanner(System.in);
+		System.out.print("Enter one integer : ");
+		int n=scin.nextInt();
+		System.out.println();
 		
-		System.out.print("화씨 온도를 입력하시오: ");
-		
-		int f=scin.nextInt();
-		float c=((float)5/9)*(f-32);
-		
-		if(c>=0) System.out.print("화씨 "+f+"도는  섭씨 "+c+"도와 같습니다.");
-		else {
-			c*=-1;
-			System.out.print("화씨 "+f+"도는  섭씨 영하"+c+"도와 같습니다.");
+		int cnt=1;
+		for(int i=1;i<n;i++) {
+			if(n%i==0) {
+				System.out.print(i+", ");
+				cnt++;
+			}
 		}
+		System.out.println(n);
+		
+		System.out.println();
+		System.out.print("count : "+cnt);
 	}
 }

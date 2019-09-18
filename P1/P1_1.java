@@ -1,20 +1,29 @@
-package p1;
+
+package practice1;
 import java.util.Scanner;
-public class P1_1 {
-	public static void main(String[] args) {
+public class P1_20161253_1 {
+	public static void main(String[] args){
 		Scanner scin=new Scanner(System.in);
+		System.out.print("서로 다른 정수 두 개를 입력하시오 : ");
+		int a=scin.nextInt();
+		int b=scin.nextInt();
 		
-		System.out.print("Enter input data : ");
+		int max, min;
+		if(a>b) {
+			max=a;
+			min=b;
+		}
+		else {
+			max=b;
+			min=a;
+		}
 		
-		int sec=scin.nextInt();
-		int min=sec/60;
-		int hour=min/60;
-		int day=hour/24;
+		System.out.println("큰 수 : "+max);
+		System.out.println("작은 수 : "+min);
 		
-		hour%=24;
-		min%=60;
-		sec%=60;
+		int res=1;
+		for(int i=0;i<min;i++) res*=max;
 		
-		System.out.print(""+day+"일 "+hour+"시간 "+min+"분 "+sec+"초");
+		System.out.print("결과 : "+res);
 	}
 }

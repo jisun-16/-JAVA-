@@ -1,16 +1,23 @@
-package p1;
+
+package practice1;
 import java.util.Scanner;
-public class P1_3 {
+public class P1_20161253_3 {
 	public static void main(String[] args) {
 		Scanner scin=new Scanner(System.in);
+		System.out.print("Enter two integer : ");
+		int a=scin.nextInt();
+		int b=scin.nextInt();
 		
-		System.out.print("Enter input data : ");
-		
-		int n=scin.nextInt();
-		int sum=0;
-		
-		for(int i=1;i<=n;i++) sum+=i;
-		
-		System.out.print("1부터 "+n+"까지의 합은 "+sum+"입니다.");
+		for(int i=0;i<a;i++) {
+			if(i==0||i==a-1) {
+				for(int j=0;j<b;j++) System.out.print("*");
+				System.out.println();
+			}
+			else {
+				System.out.print("*");
+				for(int j=1;j<b-1;j++) System.out.print(" ");
+				System.out.println("*");
+			}
+		}
 	}
 }
