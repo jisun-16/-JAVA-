@@ -6,6 +6,8 @@ public class P1_20161253_2 {
 		Scanner scin=new Scanner(System.in);
 		System.out.print("Enter one integer : ");
 		int n=scin.nextInt();
+		scin.close();
+		
 		System.out.println();
 		
 		int cnt=1;
