@@ -14,9 +14,13 @@ public class P1_20161253_3 {
 				System.out.println();
 			}
 			else {
-				System.out.print("*");
-				for(int j=1;j<b-1;j++) System.out.print(" ");
-				System.out.println("*");
+				if(b==1)
+					System.out.println("*");
+				else {
+					System.out.print("*");
+					for(int j=1;j<b-1;j++) System.out.print(" ");
+					System.out.println("*");
+				}
 			}
 		}
 	}
